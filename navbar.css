@@ -1,0 +1,59 @@
+#navbar{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    z-index: 2000;
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid black; */
+    align-items: center;
+    
+    height: 50px;
+    color: white;
+    
+}
+
+#navbar > .info{
+    /* border: 2px solid black; */
+    padding: 5px;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+  
+#navbar> .info > a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+   
+}
+
+#navbar > .info>a:hover{
+    color: rgb(32, 184, 184);
+}
+
+#navbar>button{
+    border-radius: 25px;
+    background-color: rgb(101,97,178);
+    color: white;
+    border-color: white;
+    padding: 5px;
+    font-size: 20px;
+    
+}
+
+#navbar>button:hover{
+    background-color: rgb(57, 51, 185);
+    color: rgb(32, 184, 184);
+}
+.logo>img{
+    position: relative;
+    width: 100%;
+    border-radius: 50%;
+    height: 130px;
+    right: 30px;
+
+}
