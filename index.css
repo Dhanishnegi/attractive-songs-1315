@@ -93,7 +93,8 @@ body{
     width: 35%;
     margin: auto;
     text-align: center;
-    /* padding-top: 10px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 #midpart> .sec1 h1{
     color: white;
@@ -196,6 +197,93 @@ body{
             
         }
     
+    }
+
+
+    /* lower mid section ----->>> */
+
+    #lowermid> .lowermid1{
+        display: flex;
+        justify-content: space-between;
+        /* border: 2px solid red; */
+        background-color: rgb(1,10,17);
+    }
+
+    #lowermid> .lowermid1>.lowermid1first{
+        width: 40%;
+        /* border: 2px solid green; */
+        margin-left: 100px;
+    }
+
+    #lowermid> .lowermid1 img{
+        width: 100%
+        /* margin-left: 100px; */
+    }
+
+
+    #lowermid> .lowermid1 .minidiv{
+        display: flex;
+        /* border: 2px solid red; */
+        width: 80%;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    #lowermid> .lowermid1>.lowermid1second{
+        /* border: 2px solid yellow; */
+        width: 40%;
+        margin-right: 150px;
+        padding-top: 10%;
+    }
+
+    
+
+    #lowermid> .lowermid1 h3{
+        color: rgb(24,208,239);
+    }
+
+    #lowermid> .lowermid1 h1{
+        color: white;
+        font-size: 50px;
+    }
+
+    #lowermid> .lowermid1 p{
+        color: rgb(95,97,108);
+    }
+
+    /* media querry for lower mid section  */
+
+    @media all and (max-width:1390px){
+        #lowermid> .lowermid1 h1{
+            font-size: 35px;
+        }
+    }
+    @media all and (max-width:1200px){
+        #lowermid> .lowermid1 h1{
+            font-size: 25px;
+        }
+    }
+    @media all and (max-width:1000px){
+        #lowermid> .lowermid1{
+            display: grid;
+            grid-template-rows: repeat(2, 1fr);
+        }
+
+        #lowermid> .lowermid1>.lowermid1first{
+            margin: auto;
+            /* margin-left: 200px; */
+            
+            width: 60%;
+        }
+        #lowermid> .lowermid1>.lowermid1second{
+            /* margin-left: 200px; */
+            margin: auto;
+            width: 60%;
+            padding-left: 40px;
+        }
+        #lowermid> .lowermid1 h1{
+            font-size: 35px;
+        }
     }
 
 
